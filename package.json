@@ -1,0 +1,31 @@
+{
+  "name": "prometheus-and-grafana-project",
+  "version": "1.0.0",
+  "description": "Just a basic project to setup prometheus, grafana and loki for server monitoring so that it can be replicated on another large-scale server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AyyanYe/Prometheus-Grafana-and-Loki-Server-Monitoring-Project.git"
+  },
+  "keywords": [
+    "Prometheus",
+    "Grafana",
+    "Loki",
+    "Server-Monitoring",
+    "DevOps"
+  ],
+  "author": "Ayyan Ahmed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AyyanYe/Prometheus-Grafana-and-Loki-Server-Monitoring-Project/issues"
+  },
+  "homepage": "https://github.com/AyyanYe/Prometheus-Grafana-and-Loki-Server-Monitoring-Project#readme",
+  "dependencies": {
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  }
+}
