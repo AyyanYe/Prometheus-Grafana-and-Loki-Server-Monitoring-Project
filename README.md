@@ -1,6 +1,3 @@
-### **README.md**
-
-```markdown
 # Prometheus, Grafana, and Loki Server Monitoring Project
 
 This project is a basic setup for integrating **Prometheus**, **Grafana**, and **Loki** for server monitoring. It includes a sample Express.js server that demonstrates how to simulate server load and generate metrics, making it suitable for large-scale server replication and monitoring.
@@ -126,8 +123,3 @@ This project is licensed under the [MIT License](LICENSE).
 ```
 
 ---
-
-### **How to Use the README**
-1. Copy the content above into a new `README.md` file in your project directory.
-2. Update the placeholder email under **Author** if needed.
-3. Push the updated repository to your GitHub. The README will be displayed on your repo's homepage.
