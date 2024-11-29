@@ -44,8 +44,26 @@ This project is a basic setup for integrating **Prometheus**, **Grafana**, and *
    ```
 
 4. The server will start at:
+
    ```
    http://localhost:8000
+   ```
+
+5. Run the docker file to start the Prometheus Server:
+
+   ```bash
+   docker compose up
+   ```
+
+6. Run the command to start the Grafana Server:
+
+   ```bash
+   docker run -d -p 3000:3000 --name=grafana grafana/grafana-oss
+   ```
+
+7. Run the command to start the Grafana-Loki Server:
+   ```bash
+   docker run -d -p 3100:3100 --name=loki grafana/grafana-loki
    ```
 
 ---
@@ -79,6 +97,11 @@ This project is a basic setup for integrating **Prometheus**, **Grafana**, and *
     "message": "Failed to complete heavy task"
   }
   ```
+
+### **`GET /metrics`**
+
+- **Description**: For Prometheus metrics endpoint.
+- **Response**: Returns all the server data.
 
 ---
 
@@ -129,7 +152,7 @@ This project is licensed under the [MIT License](LICENSE).
 **Ayyan Ahmed**
 
 - GitHub: [AyyanYe](https://github.com/AyyanYe)
-- Email: [ayyanahmed@outlook.com]
+- Email: [ayyanahmed@outlook.com](ayyanahmed@outlook.com)
 
 ---
 

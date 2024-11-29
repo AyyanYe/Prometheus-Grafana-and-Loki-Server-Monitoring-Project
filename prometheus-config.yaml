@@ -4,4 +4,5 @@ global:
 scrape_configs:
   - job_name: prometheus
     static_configs:
-      - targets: ["localhost:9090"]
+      # if this is running on a docker container, use the IP Address of your PC instead
+      - targets: ["localhost:8000"]
