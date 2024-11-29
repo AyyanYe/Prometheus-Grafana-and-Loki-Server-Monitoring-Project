@@ -5,6 +5,7 @@ This project is a basic setup for integrating **Prometheus**, **Grafana**, and *
 ---
 
 ## **Features**
+
 - A simple Express.js server with endpoints:
   - `/`: Basic health check endpoint.
   - `/slow`: Simulates a heavy task with random delays and errors.
@@ -16,23 +17,28 @@ This project is a basic setup for integrating **Prometheus**, **Grafana**, and *
 ## **Installation**
 
 ### **Prerequisites**
+
 - Node.js (v14+)
 - npm (v6+)
 - Prometheus, Grafana, and Loki setup on your system.
 
 ### **Steps**
+
 1. Clone this repository:
+
    ```bash
    git clone https://github.com/AyyanYe/Prometheus-Grafana-and-Loki-Server-Monitoring-Project.git
    cd Prometheus-Grafana-and-Loki-Server-Monitoring-Project
    ```
 
 2. Install the dependencies:
+
    ```bash
    npm install
    ```
 
 3. Start the server using `nodemon`:
+
    ```bash
    npm start
    ```
@@ -45,7 +51,9 @@ This project is a basic setup for integrating **Prometheus**, **Grafana**, and *
 ---
 
 ## **Endpoints**
+
 ### **`GET /`**
+
 - **Description**: Health check for the server.
 - **Response**:
   ```json
@@ -55,6 +63,7 @@ This project is a basic setup for integrating **Prometheus**, **Grafana**, and *
   ```
 
 ### **`GET /slow`**
+
 - **Description**: Simulates a heavy task with random delays and occasional errors.
 - **Success Response**:
   ```json
@@ -86,6 +95,7 @@ This project is a basic setup for integrating **Prometheus**, **Grafana**, and *
 ---
 
 ## **Technologies Used**
+
 - **Express.js**: Lightweight and fast server framework for Node.js.
 - **Prometheus**: Open-source monitoring and alerting toolkit.
 - **Grafana**: Visualization tool for metrics.
@@ -94,6 +104,7 @@ This project is a basic setup for integrating **Prometheus**, **Grafana**, and *
 ---
 
 ## **Usage**
+
 1. Use `/` to verify that the server is running correctly.
 2. Use `/slow` to test heavy tasks and simulate delays/errors.
 
@@ -102,24 +113,26 @@ You can integrate **Prometheus** to monitor the `/slow` endpoint and visualize t
 ---
 
 ## **Contributing**
+
 Feel free to contribute to this project by submitting issues or pull requests. Contributions are highly appreciated!
 
 ---
 
 ## **License**
+
 This project is licensed under the [MIT License](LICENSE).
 
 ---
 
 ## **Author**
-**Ayyan Ahmed**  
+
+**Ayyan Ahmed**
+
 - GitHub: [AyyanYe](https://github.com/AyyanYe)
-- Email: [ayyanahmed@outlook.com] 
+- Email: [ayyanahmed@outlook.com]
 
 ---
 
 ## **Acknowledgments**
-- This project serves as a foundation for server monitoring tools and can be easily extended for production environments.
-```
 
----
+- This project serves as a foundation for server monitoring tools and can be easily extended for production environments.

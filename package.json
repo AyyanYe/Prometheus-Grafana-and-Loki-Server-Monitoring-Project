@@ -26,6 +26,7 @@
   "homepage": "https://github.com/AyyanYe/Prometheus-Grafana-and-Loki-Server-Monitoring-Project#readme",
   "dependencies": {
     "express": "^4.21.1",
-    "nodemon": "^3.1.7"
+    "nodemon": "^3.1.7",
+    "prom-client": "^15.1.3"
   }
 }
